@@ -1,16 +1,16 @@
 import React from "react";
 import Link from "next/link";
 import MaxWidthWrapper from "./MaxWidthWapper";
-import { ModeToggle } from "./toggle";
 import {
-  Menubar,
-  MenubarContent,
-  MenubarItem,
-  MenubarMenu,
-  MenubarSeparator,
-  MenubarShortcut,
-  MenubarTrigger,
-} from "@/components/ui/menubar";
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+} from "@/components/ui/navigation-menu";
 
 const Navbar = async () => {
   return (
@@ -20,6 +20,9 @@ const Navbar = async () => {
           <Link href="/" className="flex z-40 font-semibold">
             <span>AiForExam</span>
           </Link>
+
+          <div>Here should be the menus</div>
+
           <div>user account</div>
         </div>
       </MaxWidthWrapper>
