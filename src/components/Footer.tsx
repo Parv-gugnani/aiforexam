@@ -50,9 +50,9 @@ const Footer = () => {
           </a>
         </div>
         <p className="mb-4 text-sm">
-          © {new Date().getFullYear()} MomentumX. All rights reserved.
+          © {new Date().getFullYear()} Aiforexam. All rights reserved.
         </p>
-        <p className="text-sm">Designed and developed by Parv</p>
+        <p className="text-sm">Designed and developed by Parv and Vaibhav</p>
       </div>
     </footer>
   );

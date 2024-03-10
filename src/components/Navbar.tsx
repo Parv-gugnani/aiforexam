@@ -18,23 +18,9 @@ const Navbar = async () => {
       <MaxWidthWrapper>
         <div className="flex h-14 items-center justify-between border-b border-zinc-200">
           <Link href="/" className="flex z-40 font-semibold">
-            <span>ExamName</span>
+            <span>AiForExam</span>
           </Link>
-          <Menubar>
-            <MenubarMenu>
-              <MenubarTrigger>File</MenubarTrigger>
-              <MenubarContent>
-                <MenubarItem>
-                  New Tab <MenubarShortcut>⌘T</MenubarShortcut>
-                </MenubarItem>
-                <MenubarItem>New Window</MenubarItem>
-                <MenubarSeparator />
-                <MenubarItem>Share</MenubarItem>
-                <MenubarSeparator />
-                <MenubarItem>Print</MenubarItem>
-              </MenubarContent>
-            </MenubarMenu>
-          </Menubar>
+          <div>user account</div>
         </div>
       </MaxWidthWrapper>
     </nav>

@@ -25,7 +25,7 @@ export default function Home() {
           </Button>
         </div>
       </MaxWidthWrapper>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
