@@ -11,6 +11,7 @@ import {
   NavigationMenuTrigger,
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
+import { Separator } from "./ui/separator";
 
 const Navbar = async () => {
   return (
@@ -20,8 +21,7 @@ const Navbar = async () => {
           <Link href="/" className="flex z-40 font-semibold">
             <span>AiForExam</span>
           </Link>
-
-          <div>Here should be the menus</div>
+          {/* <div>Here should be the menus</div> */}
 
           <div>user account</div>
         </div>
